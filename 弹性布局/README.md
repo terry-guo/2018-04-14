@@ -6,4 +6,4 @@
 
 ## 1.基础篇
 
-![0](E:\myBlog\blog\弹性布局\images\001.png)
+![0](.\images\001.png)
