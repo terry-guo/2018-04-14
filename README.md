@@ -83,7 +83,7 @@
 
 ​	ajax请求的种类一共有get , post ,  put ,  head，options，trace , delete , patch，目前常用的有get方法和post方法。
 
-#### get方法和post方法比较
+###2.get方法和post方法比较
 
 01 安全性
 
@@ -111,7 +111,7 @@ get请求因此所有的参数都拼接在请求路径后面，所以没有请�
 post请求把参数全部都放在请求体中传递。
 ```
 
-####ajax请求的基本过程：
+###3.ajax请求的基本过程：
 
 1.创建异步对象
 
