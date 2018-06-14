@@ -28,7 +28,7 @@ offSet 自己的，用于获取元素自己本身的尺寸 。
 
 ### 1-2、offsetLeft 和 offsetTop
 
-距离第一个有定位的父级盒子左边和上边的距离，注意：**父级盒子必须要有定位，如果没有，则最终以body为准！** ![01](C:\Users\gwg\Desktop\新建文件夹\images\01.png)总结：offsetLeft和offsetTop从从父标签的padding开始计算，不包括border。即：从子盒子边框到定位父盒子边框的距离。 
+距离第一个有定位的父级盒子左边和上边的距离，注意：**父级盒子必须要有定位，如果没有，则最终以body为准！** ![01](.\images\01.png)总结：offsetLeft和offsetTop从从父标签的padding开始计算，不包括border。即：从子盒子边框到定位父盒子边框的距离。 
 
 ### 1-3、offsetParent 
 
