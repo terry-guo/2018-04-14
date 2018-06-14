@@ -56,7 +56,7 @@ e) 如果没有给 当前 元素指定过 top 样式，则 style.top 返回的�
 - 网页被卷去的高： document.body.scrollTop;
 - 网页被卷去的左： document.body.scrollLeft;
 
-在实际开发中使用比较多的就是**scrollTop，**如下图： ![02](C:\Users\gwg\Desktop\新建文件夹\images\02.png)
+在实际开发中使用比较多的就是**scrollTop，**如下图： ![02](.\images\02.png)
 
 ### 2-1、处理scroll家族浏览器适配问题
 
@@ -113,7 +113,6 @@ e) 如果没有给 当前 元素指定过 top 样式，则 style.top 返回的�
 
   - 如果不指定一个边框或者不定位改元素，其值就为0
 
-    
 
   ·           Client家族和offset家族一样只能获取不能设置
 
@@ -138,7 +137,6 @@ e) 如果没有给 当前 元素指定过 top 样式，则 style.top 返回的�
 
     clirntHeight= height+padding
 
-    
 
   - offsetLeft: 当前元素距离有定位的父盒子左边的距离；offsetTop: 当前元素距离有定位的父盒子上边的距离
 
@@ -146,7 +144,6 @@ e) 如果没有给 当前 元素指定过 top 样式，则 style.top 返回的�
 
     offextHeight= height+padding+border
 
-    
 
   - scrollLeft: 左边滚动的长度; scrollTop: 上边滚动的长度;
 
@@ -154,13 +151,12 @@ e) 如果没有给 当前 元素指定过 top 样式，则 style.top 返回的�
 
     scrollHeight=内容的高度
 
-    
 
 - **width和height分析**
   - clientWidth / Height: 内容 + 内边距
   - offsetWidth / Height: 内容 + 内边距 + 边框
   - scrollWidth / Height: 滚动内容的宽度和高度
-  - ![03](C:\Users\gwg\Desktop\新建文件夹\images\03.png)
+  - ![03](.\images\03.png)
 
 ## 三、获取屏幕的可视区域
 
